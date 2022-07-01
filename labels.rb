@@ -53,17 +53,17 @@ else
 end
 
 wanted_labels = [
-  { name: 'backwards-incompatible', color: 'ECBF0B', description: 'This change will lead to a major version bump for the next release' },
-  { name: 'bug', color: 'd73a4a', description: "Something isn't working" },
-  { name: 'documentation', color: '0075ca', description: 'Improvements or additions to documentation' },
-  { name: 'duplicate', color: 'cfd3d7', description: 'This issue or pull request already exists' },
-  { name: 'enhancement', color: 'a2eeef', description: 'New feature or request' },
+  { name: 'backwards-incompatible', color: 'eb6420', description: 'This change will lead to a major version bump for the next release' },
+  { name: 'bug', color: '0e8a16', description: "Something isn't working" },
+  { name: 'documentation', color: '006b75', description: 'Improvements or additions to documentation' },
+  { name: 'duplicate', color: 'cccccc', description: 'This issue or pull request already exists' },
+  { name: 'enhancement', color: '0052cc', description: 'New feature or request' },
   { name: 'good first issue', color: '7057ff', description: 'Good for newcomers' },
-  { name: 'help wanted', color: '008672', description: 'Extra attention is needed' },
-  { name: 'ignore', color: 'f8f8f8', description: 'Excluded from CHANGELOG' },
+  { name: 'help wanted', color: '159818', description: 'Extra attention is needed' },
   { name: 'invalid', color: 'e4e669', description: "This doesn't seem right" },
-  { name: 'modulesync', color: 'bfd4f2', description: 'PR related to modulesync' },
-  { name: 'question', color: 'd876e3', description: 'Further information is requested' },
+  { name: 'modulesync', color: 'fbca04', description: 'PR related to modulesync' },
+  { name: 'question', color: 'cc317c', description: 'Further information is requested' },
+  { name: 'skip-changelog', color: '343e4c', description: 'Excluded from CHANGELOG' },
   { name: 'wontfix', color: 'ffffff', description: 'This will not be worked on' },
 ]
 
