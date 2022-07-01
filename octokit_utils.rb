@@ -65,6 +65,10 @@ class OctokitUtils
     return repos.sort.uniq
   end
 
+  def repo_is_fork?(repo)
+    @client.repository(repo).fork
+  end
+
   def repo_is_archived?(repo)
     @client.repository(repo).archived
   end

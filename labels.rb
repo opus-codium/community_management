@@ -79,6 +79,7 @@ parsed.each do |_k, v|
   else
     repo_name = (v['github']).to_s
   end
+  next if util.repo_is_fork?(repo_name)
   next if util.repo_is_archived?(repo_name)
   missing_labels = util.fetch_repo_missing_labels(repo_name, wanted_labels)
   incorrect_labels = util.fetch_repo_incorrect_labels(repo_name, wanted_labels)
