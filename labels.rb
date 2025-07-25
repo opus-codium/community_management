@@ -63,6 +63,7 @@ wanted_labels = [
   { name: 'invalid', color: 'e4e669', description: "This doesn't seem right" },
   { name: 'modulesync', color: 'fbca04', description: 'PR related to modulesync' },
   { name: 'question', color: 'cc317c', description: 'Further information is requested' },
+  { name: 'security', color: 'b60205', description: 'Related to a security issue' },
   { name: 'skip-changelog', color: '343e4c', description: 'Excluded from CHANGELOG' },
   { name: 'wontfix', color: 'ffffff', description: 'This will not be worked on' },
 ]
